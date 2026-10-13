@@ -1,0 +1,93 @@
+/* [앞면] */
+.text-page5-front {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  text-align: center;
+  background-color: #ffffff; 
+  background: linear-gradient(185deg, #fce0b3 0%, #e67e22 100%); 
+  color: #2c3e50;
+  height: 100%;
+}
+
+/* 상단 메인 질문 타이틀 */
+.title5-top h2 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #1b4f72;
+  line-height: 1.3;
+  word-break: keep-all;
+  text-shadow: 
+    2px 2px 0px #ffffff, 
+    -2px -2px 0px #ffffff, 
+    2px -2px 0px #ffffff, 
+    -2px 2px 0px #ffffff,
+    0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* 1~5번 대처 수칙 리스트 영역 */
+.dengue-steps {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+  margin: 15px 0;
+  text-align: left;
+  padding-left: 10px;
+}
+.step-item {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #1a252f;
+}
+.step-item p {
+  margin: 0;
+}
+
+/* 3번 수칙 세부 내역 */
+.step-sub-list {
+  font-size: 12.0px;
+  font-weight: 600;
+  margin-top: 4px;
+  line-height: 1.35;
+  color: #2d3748;
+  padding-left: 12px;
+}
+.step-sub-list span {
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* [뒷면] */
+.text-page5-back {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 35px;
+  background-color: #d1f2fd;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+/* 뒷면 TAPA 타이틀 */
+.overlay-title-tapa {
+  font-size: 42px;
+  font-weight: 900;
+  color: #e74c3c;
+  letter-spacing: 1px;
+  text-shadow: 
+    2px 2px 0px #ffffff, 
+    -2px -2px 0px #ffffff, 
+    2px -2px 0px #ffffff, 
+    -2px 2px 0px #ffffff,
+    0px 3px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
