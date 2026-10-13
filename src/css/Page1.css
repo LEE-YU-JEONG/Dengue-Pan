@@ -29,37 +29,35 @@
 }
 
 .title-center h1 {
-  font-size: 45px;
-  font-weight: 1000;
-  line-height: 1.0;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.15;
   color: #e65100;
 
   text-shadow: 
-    3px 3px 0px #ffffff, 
-    -3px -3px 0px #ffffff, 
-    3px -3px 0px #ffffff, 
-    -3px 3px 0px #ffffff,
-    5.5px 5.5px 0px rgba(0, 0, 0, 0.5);
+    2px 2px 0px #ffffff, 
+    -2px -2px 0px #ffffff, 
+    2px -2px 0px #ffffff, 
+    -2px 2px 0px #ffffff,
+    4px 4px 0px rgba(0, 0, 0, 0.5);
   
-  -webkit-text-stroke: 1px #ffffff;     
   word-break: keep-all;
 }
-/* 모바일 화면에서는 아웃라인과 그림자를 얇게 조정 */
+
+/* 모바일 화면 (768px 이하) - 글자 뭉침 방지를 위해 아웃라인 간격을 1px로 조절 */
 @media screen and (max-width: 768px) {
   .title-center h1 {
-    font-size: 32px; /* 모바일에서 글자가 너무 크면 줄어들도록 조정 가능 */
+    font-size: 32px; 
     text-shadow: 
-      1.5px 1.5px 0px #ffffff, 
-      -1.5px -1.5px 0px #ffffff, 
-      1.5px -1.5px 0px #ffffff, 
-      -1.5px 1.5px 0px #ffffff,
-    3.5px 3.5px 0px rgba(0, 0, 0, 0.5);
-    
-    -webkit-text-stroke: 0.5px #ffffff;
+      1px 1px 0px #ffffff, 
+      -1px -1px 0px #ffffff, 
+      1px 1px 0px #ffffff, 
+      -1px 1px 0px #ffffff,
+      3px 3px 0px rgba(0, 0, 0, 0.5);
   }
   
   .text-content h2 {
-    font-size: 17px; /* 뒷면 타이틀도 모바일에서 겹침 방지 */
+    font-size: 17px;
   }
 }
 

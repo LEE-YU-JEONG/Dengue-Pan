@@ -26,12 +26,10 @@ export default function Page1() {
             
             <div className="title-center">
               <h1>
-                <strong>                
-                  ¿Qué debes<br />
-                  saber<br />
-                  del<br />
-                  Dengue?
-                </strong>
+                ¿Qué debes<br />
+                saber<br />
+                del<br />
+                Dengue?
               </h1>
             </div>
 
