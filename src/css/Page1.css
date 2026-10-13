@@ -44,17 +44,17 @@
   word-break: keep-all;
 }
 
-/* 모바일 화면 (768px 이하) - 글자 뭉침 방지를 위해 아웃라인 간격을 1px로 조절 */
+/* 모바일 화면 (768px 이하) */
 @media screen and (max-width: 768px) {
   .title-center h1 {
-    font-size: 32px; 
-    text-shadow: 
-      1px 1px 0px #ffffff, 
-      -1px -1px 0px #ffffff, 
-      1px 1px 0px #ffffff, 
-      -1px 1px 0px #ffffff,
-      3px 3px 0px rgba(0, 0, 0, 0.5);
-  }
+      font-size: 40px;
+      text-shadow: 
+        1.5px 1.5px 0px #ffffff, 
+        -1.5px -1.5px 0px #ffffff, 
+        1.5px -1.5px 0px #ffffff, 
+        -1.5px 2px 0px #ffffff,
+        4px 4px 0px rgba(0, 0, 0, 0.5);
+    }
   
   .text-content h2 {
     font-size: 17px;
