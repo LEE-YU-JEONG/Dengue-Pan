@@ -29,20 +29,24 @@
 }
 
 .title-center h1 {
-  font-size: 40px;
-  font-weight: 900;
-  line-height: 1.15;
+  font-size: 45px;
+  font-weight: 1000;
+  line-height: 1.0;
   color: #e65100;
-  
-  /* 텍스트 아웃라인(테두리) 및 입체 그림자 효과 */
+
   text-shadow: 
-    2px 2px 0px #ffffff, 
-    -2px -2px 0px #ffffff, 
-    2px -2px 0px #ffffff, 
-    -2px 2px 0px #ffffff,
-    0px 4px 8px rgba(0, 0, 0, 0.25); /* 살짝 떠 있는 듯한 입체 그림자 */
+    3px 3px 0px #ffffff, 
+    -3px -3px 0px #ffffff, 
+    3px -3px 0px #ffffff, 
+    -3px 3px 0px #ffffff,
+    5.5px 5.5px 0px rgba(0, 0, 0, 0.5);
   
+  -webkit-text-stroke: 1px #ffffff;     
   word-break: keep-all;
+}
+
+.logo-bottom {
+  margin-top: 25px;
 }
 
 .logo-bottom img {
@@ -63,7 +67,7 @@
 }
 
 .text-content h2 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 12px;
   color: #c0392b;
   line-height: 1.4;
@@ -71,7 +75,7 @@
 }
 
 .sub-habit {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #2c3e50;
@@ -90,6 +94,6 @@
 
 .red-letter {
   color: #e74c3c;
-  font-size: 24px;
-  margin-right: 5px;
+  font-size: 30px;
+  margin-right: 1px;
 }

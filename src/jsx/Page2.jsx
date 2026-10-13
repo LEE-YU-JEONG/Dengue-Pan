@@ -21,7 +21,11 @@ export default function Page2() {
           {/* [앞면] */}
           <div className="front text-page2-front">
             <div className="title2-container">
-              <h2>PRINCIPALES SIGNOS<br />Y SÍNTOMAS DEL DENGUE</h2>
+              <h2>
+                <strong>
+                  PRINCIPALES SIGNOS<br />Y SÍNTOMAS DEL DENGUE
+                </strong>
+              </h2>
               <span className="sub-title">Signos iniciales del Dengue</span>
             </div>
             

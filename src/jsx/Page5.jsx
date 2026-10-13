@@ -15,8 +15,7 @@ export default function Page5() {
         className={`flip-container ${isFlipped ? 'flipped' : ''}`} 
         onClick={handleFlip}
       >
-        <div className="flipper">
-          
+        <div className="flipper">     
           {/* [앞면] */}
           <div className="front text-page5-front">
             <div className="title5-top">

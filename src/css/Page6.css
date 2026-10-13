@@ -14,17 +14,18 @@
 
 /* 상단 메인 경고 타이틀 */
 .title6-top h2 {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 900;
   color: #1a5276;
-  line-height: 1.3;
+  line-height: 1.0;
+  margin-top: 20px;
   word-break: keep-all;
   text-shadow: 
-    2px 2px 0px #ffffff, 
-    -2px -2px 0px #ffffff, 
-    2px -2px 0px #ffffff, 
-    -2px 2px 0px #ffffff,
-    0px 3px 6px rgba(0, 0, 0, 0.15);
+      1.5px 1.5px 0px #ffffff, 
+      -1.5px -1.5px 0px #ffffff, 
+      1.5px -1.5px 0px #ffffff, 
+      -1.5px 1.5px 0px #ffffff,
+      3.0px 3.0px 0px rgba(0, 0, 0, 0.5);
 }
 
 /* 경고 징후 항목 리스트 영역 */
@@ -34,22 +35,22 @@
   flex-direction: column;
   justify-content: space-around; /* 리스트 항목들을 수직으로 일정하게 분산 */
   flex: 1;
-  margin: 12px 0;
+  margin: 25px 0;
   text-align: left;
   padding-left: 5px;
 }
 .alarm-item {
-  font-size: 12.5px;
+  font-size: 13.0px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.15;
   color: #1a252f;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
 }
 
 /* 첫 번째 항목(복통) 붉은색 포인트 강조 */
 .alarm-item.highlight {
   color: #c0392b;
-  font-size: 13.5px;
+  font-size: 15.0px;
   font-weight: 900;
 }
 
@@ -62,18 +63,18 @@
   margin-top: 5px;
 }
 .alarm-footer-alert h3 {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 900;
-  color: #b03a2e;
+  color: #e02b17;
   line-height: 1.3;
   margin: 0;
   word-break: keep-all;
   text-shadow: 
-    1.5px 1.5px 0px #ffffff, 
-    -1.5px -1.5px 0px #ffffff, 
-    1.5px -1.5px 0px #ffffff, 
-    -1.5px 1.5px 0px #ffffff,
-    0px 2px 4px rgba(0, 0, 0, 0.15);
+      1.5px 1.5px 0px #ffffff, 
+      -1.5px -1.5px 0px #ffffff, 
+      1.5px -1.5px 0px #ffffff, 
+      -1.5px 1.5px 0px #ffffff,
+      2.2px 2.2px 0px rgba(0, 0, 0, 0.5);
 }
 
 /* [뒷면] 전체 배경 일러스트 + CEPILLA 텍스트 */

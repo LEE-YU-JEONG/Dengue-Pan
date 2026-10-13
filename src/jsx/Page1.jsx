@@ -25,8 +25,14 @@ export default function Page1() {
             </div>
             
             <div className="title-center">
-              <span className="subtitle">¿Qué debes saber del</span>
-              <h1>Dengue?</h1>
+              <h1>
+                <strong>                
+                  ¿Qué debes<br />
+                  saber<br />
+                  del<br />
+                  Dengue?
+                </strong>
+              </h1>
             </div>
 
             <div className="logo-bottom">
@@ -37,8 +43,15 @@ export default function Page1() {
           {/* [뒷면] */}
           <div className="back text-page-back">
             <div className="text-content">
-              <h2>¿Cómo puedes evitar criaderos del mosquito en tu casa?</h2>
-              <p className="sub-habit">Teniendo estos hábitos:</p>
+              <h2>
+                <strong>
+                  ¿Cómo puedes <br />
+                  evitar criaderos <br />
+                  del mosquito en <br />
+                  tu casa?
+                </strong>
+              </h2>
+              <p className="sub-habit">Teniendo estos <br /> hábitos:</p>
               
               <ul className="vert-list">
                 <li><strong className="red-letter">V</strong>oltea</li>
